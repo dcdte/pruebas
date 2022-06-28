@@ -10,10 +10,10 @@ export default function Login() {
 
     gapi.load("client:auth2", () => {
         gapi.client.init({
-          clientId:"768790428277-o7s4l5kvevqbqg4g48s9kbru6aik6s5h.apps.googleusercontent.com",
-          plugin_name: "chat",
+        clientId:"768790428277-o7s4l5kvevqbqg4g48s9kbru6aik6s5h.apps.googleusercontent.com",
+        plugin_name: "chat",
         });
-      });
+    });
     
     window.gapi.load('client:auth2', () => {
         window.gapi.client.init({

@@ -9,7 +9,7 @@ root.render(
     <div className='g-signin'>
       <Login />
     </div>
-   </React.StrictMode>
+  </React.StrictMode>
 );
 
 
